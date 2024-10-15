@@ -32,3 +32,34 @@ Comparadores
     Diferente estricto: !==
     Comparador simple: ==
     Comparador estricto: ===
+
+
+
+Estructuras de repetición: Bucles - ciclos o loops
+for, while  y do-while
+for -> Estructura de repetición que se ejecuta n cantidad de veces, donde se conoce el valor de n
+while y do-while -> Estructura de repetición que se ejecuta n cantidad de veces, donde se puede conocer o no el valor de n
+
+
+TODOS los Ciclos deben tener tres elementos:
+    1 - Variable de control
+    2 - Control de de la variable (condicional)
+    3 - Incremento de la variable de control
+
+
+Acumuladores y contadores
+Contador: Variable o elemento auxiliar que cuenta de n en n, según la cantidad de veces que se ejecuta un código -> 
+index++ == index = index + 1
+Acumulador: Variable o elemento auxilicar que acumula o suma un valor especíco por cada contador. El acumulador siempre se define por fuera del ciclo
+variable+=otroValor
+
+While: (Por defecto es un ciclo Infnito)
+La variable de control se define por fuera del ciclo
+Se define la condición dentro del ciclo
+Se hace el control dentro del ciclo
+
+
+Diferencias entre var, let y const
+Scope o alcance de la variable: (Local o global)
+var -> Son variables globales
+let y const -> Globales y/o locales (depende de su definición)
